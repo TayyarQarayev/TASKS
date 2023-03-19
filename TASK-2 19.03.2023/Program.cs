@@ -1,14 +1,14 @@
 ﻿// TASK-1
 using static System.Console;
 using static System.Convert;
-//Write("Öyrəndiyiniz proqramlaşdırma dilinin adı :");
-//string programlasdirmaDili = ReadLine();
-//Write("Ən yaxın dostunuzun adı :");
-//string yaxinDost = ReadLine();
-//Write("Qrupunuzun nömrəsi :");
-//string qurupNomresi = ReadLine();
+Write("Öyrəndiyiniz proqramlaşdırma dilinin adı :");
+string programlasdirmaDili = ReadLine();
+Write("Ən yaxın dostunuzun adı :");
+string yaxinDost = ReadLine();
+Write("Qrupunuzun nömrəsi :");
+string qurupNomresi = ReadLine();
 
-//WriteLine($"Mənim öyrəndiyim programlaşdırma dili {programlasdirmaDili}-dir,Mənim ən yaxın dostum {yaxinDost}-dır,Mənim Qrup nömrəm {yaxinDost}-dir.");
+WriteLine($"Mənim öyrəndiyim programlaşdırma dili {programlasdirmaDili}-dir,Mənim ən yaxın dostum {yaxinDost}-dır,Mənim Qrup nömrəm {yaxinDost}-dir.");
 
 // TASK-2 
 
