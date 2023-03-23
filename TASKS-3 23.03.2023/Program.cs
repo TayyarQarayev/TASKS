@@ -6,21 +6,24 @@ using static System.Convert;
 
 // TASK PART 1
 
-//Write("Department :");
-//string departmentName = ReadLine();
-//if (departmentName == "HR" )
-//{
-//    WriteLine("Human Resources Department");
-//}else if (departmentName == "IT")
-//{
-//    WriteLine("Information Technology Department");
-//}else if (departmentName == "Finance")
-//{
-//    WriteLine("Finance Department");
-//}else
-//{
-//    WriteLine("There is no such department");
-//}
+Write("Department :");
+string departmentName = ReadLine();
+if (departmentName == "HR")
+{
+    WriteLine("Human Resources Department");
+}
+else if (departmentName == "IT")
+{
+    WriteLine("Information Technology Department");
+}
+else if (departmentName == "Finance")
+{
+    WriteLine("Finance Department");
+}
+else
+{
+    WriteLine("There is no such department");
+}
 
 // TASK PART 2
 
