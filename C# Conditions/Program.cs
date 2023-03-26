@@ -75,7 +75,7 @@ switch (MenyuNumber)
 	case 3:
         WriteLine(" - İçkilər - ");
         WriteLine("1-Qazsız su");
-        WriteLine("2-Coscacola");
+        WriteLine("2-Cocacola");
         WriteLine("3-Fanta");
         WriteLine("4-Kampot");
         WriteLine("5-Çay");
