@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TASK-2 19.03.2023", "TASK-2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TASKS-3 23.03.2023", "TASKS-3 23.03.2023\TASKS-3 23.03.2023.csproj", "{27AE8127-145F-4C87-9364-49395F3A9230}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# Conditions", "C# Conditions\C# Conditions.csproj", "{4D799474-C3D9-4C1B-B80D-1DF4E43BA565}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C# Conditions", "C# Conditions\C# Conditions.csproj", "{4D799474-C3D9-4C1B-B80D-1DF4E43BA565}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# Loops", "C# Loops\C# Loops.csproj", "{1E2DBAA0-363C-4066-AF2B-ED690D85C51F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4D799474-C3D9-4C1B-B80D-1DF4E43BA565}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D799474-C3D9-4C1B-B80D-1DF4E43BA565}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D799474-C3D9-4C1B-B80D-1DF4E43BA565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E2DBAA0-363C-4066-AF2B-ED690D85C51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E2DBAA0-363C-4066-AF2B-ED690D85C51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E2DBAA0-363C-4066-AF2B-ED690D85C51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E2DBAA0-363C-4066-AF2B-ED690D85C51F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
