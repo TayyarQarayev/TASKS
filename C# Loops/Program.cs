@@ -28,27 +28,21 @@ using static System.Convert;
         {
             sum += i;
         }
-    }
-    WriteLine($"sum : {sum}");
-
-    for (long i = -30; i <= 28; i++)
-    {
-        if ((i % 2 == 0 || i % 5 == 0) && i != 0) 
+        if ((i % 2 == 0 || i % 5 == 0) && i != 0)
         {
             product = product * i;
         }
-    }
-    WriteLine($"product : {product}");
-
-    for (int i = -30; i <= 28; i++)
-    {
         if (i % 2 != 0)
         {
             count++;
         }
     }
+    WriteLine($"sum : {sum}");
+    WriteLine($"product : {product}");
     WriteLine($"count : {count}");
+
 }
+
 
 //    TASK-part 3 : 304001 ədədinin müsbət rəqəmlərinin cəmini müsbət və mənfi olmayan rəqəmlərinin sayını tapın
 
@@ -56,24 +50,20 @@ using static System.Convert;
     WriteLine("TASK-Part 3");
     {
         int sum = 0;
+        int count = 0;
         int index = 304001;
         int remainder = 0;
-        while (index > 0)
-        {
-            remainder = index % 10;
-            sum += remainder;
-            index = index / 10;
-        }
-        WriteLine($"sum : {sum}");
-    }
-    {
-        int index = 304001;
-        int count = 0;
         while (index > 1)
         {
-            index = index / 10;
-            count++;
+            if (index > 0)
+            {
+                remainder = index % 10;
+                sum += remainder;
+                index = index / 10;
+                count++;
+            }
         }
+        WriteLine($"sum : {sum}");
         WriteLine($"count : {count}");
     }
 }
