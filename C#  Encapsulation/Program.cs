@@ -31,12 +31,6 @@ public class Hotel
 
     public Hotel(int roomCount, string hotelName, string address, double roomPrice)
     {
-
-        if (roomPrice < 60 || roomPrice > 150)
-        {
-            throw new ArgumentOutOfRangeException(nameof(roomPrice), "Room price is 60 and 150.");
-        }
-
         Id = Guid.NewGuid();
         _RoomCount = roomCount;
         HotelName = hotelName;
