@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C# Loops", "C# Loops\C# Loo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C# Arrays", "C# Arrays\C# Arrays.csproj", "{B8F3DA01-2DA5-46CB-A2C6-1E513B4A0B5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# OOP", "C# OOP\C# OOP.csproj", "{1FFEF29A-06E4-42DE-BC9C-0E1B1172CB74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C# OOP", "C# OOP\C# OOP.csproj", "{1FFEF29A-06E4-42DE-BC9C-0E1B1172CB74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#  Encapsulation", "C#  Encapsulation\C#  Encapsulation.csproj", "{EBE759FF-A6D1-46C1-B9B9-C71158FAC5FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{1FFEF29A-06E4-42DE-BC9C-0E1B1172CB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FFEF29A-06E4-42DE-BC9C-0E1B1172CB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FFEF29A-06E4-42DE-BC9C-0E1B1172CB74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE759FF-A6D1-46C1-B9B9-C71158FAC5FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE759FF-A6D1-46C1-B9B9-C71158FAC5FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE759FF-A6D1-46C1-B9B9-C71158FAC5FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE759FF-A6D1-46C1-B9B9-C71158FAC5FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
