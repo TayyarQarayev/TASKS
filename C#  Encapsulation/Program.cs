@@ -1,11 +1,11 @@
 ﻿
 Hotel reservation = new(4, "Viles Hotel", "Masalli Rayonu", 80);
-Console.WriteLine(reservation);
-double totalPrice = reservation.GetPriceRoom(2);
-Console.WriteLine(totalPrice); 
+Console.WriteLine($"Hotel - {reservation.HotelName} Adress - {reservation.Address}");
+double totalPrice = reservation.GetPriceRoom();
+Console.WriteLine($"Resrevasiya qiymeti - {totalPrice}"); 
 public class Hotel
 {
-    public Guid Id { get; }
+    public Guid Id { get; private set; }
     public int _RoomCount;
     public int RoomCount 
     {
@@ -38,8 +38,8 @@ public class Hotel
         RoomPrice = roomPrice;
     }
 
-    public double GetPriceRoom(int countOfRoom)
+    public double GetPriceRoom()
     {
-        return countOfRoom * RoomPrice;
+        return _RoomCount * RoomPrice;
     }
 }
