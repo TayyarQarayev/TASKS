@@ -9,13 +9,15 @@ FilmOperation filmOperation = new(new List<Film>
 });
 filmOperation.Add(new Film { Name = "Doktor Strange", DirectorName = "Scot Derrickson", ReleaseDate = "28.10.2016", ImdbScore = 3 });
 
-foreach (var Film in filmOperation.GetAll())
+foreach (var film in filmOperation.GetAll())
 {
-    Console.WriteLine($"Film Name : {Film.Name} Director : {Film.DirectorName} Release Date : {Film.ReleaseDate}");
+    Console.WriteLine($"Film Name : {film.Name} Director : {film.DirectorName} Release Date : {film.ReleaseDate}");
 }
 
-ActorOperation actorOperation = new(new List<Actor>());
-actorOperation.Add(new Actor { FirstName = "Robert", LastName = "Downey", Age = 58 });
+ActorOperation actorOperation = new(new List<Actor> 
+{
+    new Actor { FirstName = "Robert", LastName = "Downey", Age = 58 }
+});
 actorOperation.Add(new Actor { FirstName = "Scarlett", LastName = "Johansson", Age = 38 });
 
 foreach (var actor in actorOperation.GetAll()) 
