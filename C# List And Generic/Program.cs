@@ -13,6 +13,8 @@ foreach (var film in filmOperation.GetAll())
 {
     Console.WriteLine($"Film Name : {film.Name} Director : {film.DirectorName} Release Date : {film.ReleaseDate}");
 }
+filmOperation.Delete(new Film { Name = "The Guardians of the Galaxy", DirectorName = "James Gunn", ReleaseDate = "31.06.2014", ImdbScore = 8 });
+
 
 ActorOperation actorOperation = new(new List<Actor> 
 {
@@ -24,6 +26,7 @@ foreach (var actor in actorOperation.GetAll())
 {
     Console.WriteLine($"Actor Name : {actor.FirstName}, Surname : {actor.LastName} and Age : {actor.Age}");
 }
+actorOperation.Delete(new Actor { FirstName = "Scarlett", LastName = "Johansson", Age = 38 });
 
 actorOperation.GetFullName();
 
